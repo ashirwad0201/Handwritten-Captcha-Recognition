@@ -28,7 +28,7 @@ The next is 128 neuron layer having 3X3 kernel and 1X1 Strides and Relu Activati
 
 5. Adam Optimizer is te optimizer used and Cross Entropy function is the Cost Function.
 
-Features of my default code:
+### Features of my default code:
 
 1. It can correctly identify some of the rotated characters. I haven't added any special algorithm for that.
 
