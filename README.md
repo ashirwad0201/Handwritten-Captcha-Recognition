@@ -26,7 +26,7 @@ The next is 128 neuron layer having 3X3 kernel and 1X1 Strides and Relu Activati
 
 4. The final layer is a dense layer of the number of classes as neurons and Softmax Activation to get the final result. I got the best result with 30 Epochs. You can increase decrease to train it again to get a more good result. I had tried 35 also but it started overfitting more.
 
-5. Adam Optimizer is te optimizer used and Cross Entropy function is the Cost Function.
+5. Adam Optimizer is the optimizer used and Cross Entropy function is the Cost Function.
 
 ### Features of my default code:
 
