@@ -17,7 +17,7 @@ I have commented the code so that it is easier to understand when and what happe
 In the folder test_image, I have tested certain images which I have provided for you to test. You can also add your images. Change their path in submission.py test function.
 
 ### Details of my Model:
-1. It is a Sequential Model. Two Convolutional 2D Layers of 32 and 128 Neurons each. The first layer is of 32 neurons having a kernel of 5X5 and taking 2X2 strides with Relu Actiavtion. It is Input Layer.
+1. It is a Sequential Model. Two Convolutional 2D Layers of 32 and 128 Neurons each. The first layer is of 32 neurons having a kernel of 5X5 and taking 2X2 strides with Relu as a Activation function. It is Input Layer.
 The next is 128 neuron layer having 3X3 kernel and 1X1 Strides and Relu Activation.Each of the layers have a Pooling Layer.
 
 2. A flattening and Dropout Layer with 0.3 dropout to prevent Overfitting of the model.
